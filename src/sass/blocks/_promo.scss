@@ -1,5 +1,85 @@
 .promo {
     min-height: 605px;
-    padding: 21px 093px 0;
-    background: url('../../img/bg/bg_tader.png')center (center/cover) no-repeat; 
+    padding: 21px 0 93px 0;
+    background: url('../img/bg/bg_tader.png')center (center/cover) no-repeat; 
+    &__wraper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 91px;
+    }
+    &__header {
+        font-size: 42px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__subheader {
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 6px;
+    }
+    &__icons {
+        margin-top: 65px;
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon {
+        width: 106px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 500;
+        color: #ffffff;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            }
+    }
+    &__link {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 500;
+        color: #ffffff;
+        a {
+            text-transform: uppercase;
+            text-decoration: underline;
+            color: #ffffff;
+        }
+
+    }
+    
+}
+@media (max-width: 991px) {
+    .promo{
+        &__wraper {
+            align-items: center;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .promo {
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .promo {
+        &__wraper {
+            align-items: center;
+            margin-top: 85px;
+        }
+        &__header {
+            font-size: 40px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
 }
