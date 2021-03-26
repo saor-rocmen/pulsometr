@@ -7,6 +7,19 @@
             align-items: center;
         }
     }
+    .title{
+        &_left{
+            text-align: center;
+        }
+    }
+    .consultation {
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 36px auto 0 auto;
+    }
 }
 @media (max-width: 768px) {
     .promo {
@@ -27,6 +40,7 @@
             margin-top: 25px;
         }
     }
+    
         
 }
 @media (max-width: 576px) {
@@ -61,6 +75,18 @@
             width: 135px;
             height: 27px;
             font-size: 10px;
+        }
+    }
+    .title{
+        margin-top: 50px;
+        &_left {
+            margin: 0;
+        }
+    }
+    .consultation {
+        &__descr {
+            margin: 50px auto 0 auto;
+            width: 75%;
         }
     }
 }
@@ -111,5 +137,17 @@
         &__descr {
             margin-top: 10px;
         }
+    }
+    .consultation{
+        margin: 70px 0 70px 0;
+        min-height: 600px;
+    }
+    .title {
+        &_left {
+            font-size: 21px;
+        }
+    }
+    .feed-form {
+        width: 270px;
     }
 }

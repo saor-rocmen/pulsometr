@@ -1,15 +1,6 @@
 .advan {
     display: flex;
-    min-height: 470px;
-    background-color: #f6f6f6;
-    &__title {
-        margin-top: 70px;
-        font-size: 30px;
-        line-height: 1.2;
-        font-weight: 700;
-        color: #0d0d0d;
-        text-align: center;
-    }
+    background-color: #f6f6f6; 
     &__wraper {
         display: flex;
         justify-content: space-between;
@@ -39,6 +30,7 @@
         font-weight: 400;
         color: #0d0d0d;
         text-align: center;
+        margin-bottom: 50px;;
         a {
             text-decoration: underline;
             color: #ff0000;
