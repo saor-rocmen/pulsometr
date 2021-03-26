@@ -1,6 +1,6 @@
 .advan {
     display: flex;
-    height: 470px;
+    min-height: 470px;
     background-color: #f6f6f6;
     &__title {
         margin-top: 70px;
@@ -42,18 +42,6 @@
         a {
             text-decoration: underline;
             color: #ff0000;
-        }
-    }
-}
-@media (max-width: 768px) {
-    .advan {
-        min-height: 470px;
-        &__title {
-            margin-top: 50px;
-        }
-        &__item {
-            width: 225px;
-            margin-top: 50px;
         }
     }
 }

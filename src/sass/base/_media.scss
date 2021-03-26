@@ -2,4 +2,114 @@
     .contayner {
         max-width: 90%;
     }
+    .promo{
+        &__wraper {
+            align-items: center;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .promo {
+        width: 100%;
+    }
+    .advan {
+        &__wraper {
+            flex-direction: column;
+        }
+        &__item {
+            width: 50%;
+            margin: 30px 0 20px 0;
+        }
+        &__title {
+            margin-top: 15px;
+        }
+        &__descr {
+            margin-top: 25px;
+        }
+    }
+        
+}
+@media (max-width: 576px) {
+    .promo {
+        &__wraper {
+            align-items: center;
+            margin-top: 85px;
+        }
+        &__header {
+            font-size: 40px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    .header {
+        &__logo {
+            width: 170px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }
+        &__button {
+            width: 135px;
+            height: 27px;
+            font-size: 10px;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .es_display {
+        display: none;
+    }
+    .header {
+        flex-direction: column;
+        &__logo {
+            width: 230px;
+        }
+        .button {
+            width: 180px;
+            height: 36px;
+            font-size: 13px;
+            margin-top: 15px;
+        }
+    }
+    .promo {
+        &__wraper {
+            margin-top: 65px;
+        }
+        &__header {
+            font-size: 34px;
+        }
+        &__subheader {
+            font-size: 17px;
+            margin-top: 14px;
+        }
+        &__link {
+            margin-top: 30px;
+        } 
+    }
+     
+    .button_main {
+        margin-top: 50px;
+        width: 280px;
+    }
+    .advan {
+        &__item {
+            width: 90%;
+            margin: 20px 0 15px 0;
+        }
+        &__subtitle {
+            margin-top: 15px;
+        }
+        &__descr {
+            margin-top: 10px;
+        }
+    }
 }

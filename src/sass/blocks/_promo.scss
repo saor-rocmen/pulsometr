@@ -57,29 +57,3 @@
     }
     
 }
-@media (max-width: 991px) {
-    .promo{
-        &__wraper {
-            align-items: center;
-        }
-    }
-}
-@media (max-width: 768px) {
-    .promo {
-        width: 100%;
-    }
-}
-@media (max-width: 576px) {
-    .promo {
-        &__wraper {
-            align-items: center;
-            margin-top: 85px;
-        }
-        &__header {
-            font-size: 40px;
-        }
-        &__subheader {
-            font-size: 20px;
-        }
-    }
-}
